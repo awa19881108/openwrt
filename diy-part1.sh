@@ -1,7 +1,8 @@
 #!/bin/bash
 # DIY part1 - Before feeds update
 
-cd openwrt || exit 1
+
+# cd openwrt || exit 1
 
 # 移除舊 helloworld/mosdns 避免重複
 sed -i '/helloworld/d' feeds.conf.default
